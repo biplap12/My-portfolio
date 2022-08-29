@@ -44,16 +44,16 @@ const Services = () => {
 					whileInView={{ /*left: "14rem"*/ left: "25rem" }}
 					transition={transition}
 				>
-					<Card
+					{/* <Card
 						emoji={HeartEmoji}
 						heading={"Design"}
 						detail={"Figma, Photoshop"}
-					/>
+					/> */}
 				</motion.div>
 				{/* second card */}
 				<motion.div
 					initial={{ left: "-11rem", top: "12rem" }}
-					whileInView={{ /*left: "-4rem"*/ left: "10rem" }}
+					whileInView={{ /*left: "-4rem"*/ left: "25rem" }}
 					transition={transition}
 				>
 					<Card
