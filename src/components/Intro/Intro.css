@@ -93,8 +93,8 @@
 	filter: blur(72px);
 }
 .phoptp {
-	margin-left: -90px;
-	margin-top: 25px;
+	margin-left: -9px;
+	margin-top: 3.9px;
 }
 
 @media screen and (max-width: 480px) {
@@ -116,6 +116,9 @@
 		top: -7rem !important;
 	}
 	.phoptp {
-		margin-left: 0%;
+		margin-top: 10.2%;
+		margin-left: 21%;
+		height: 350px;
+		width: 245px;
 	}
 }

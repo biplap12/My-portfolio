@@ -27,26 +27,27 @@ const Intro = () => {
 			<div className="i-left">
 				<div className="i-name">
 					{/* yahan change hy darkmode ka */}
-					<span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
+					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
 					<span>Biplap Neupane</span>
 					<span>
-						Frontend Developer with high level of experience in web designing
-						and development, producting the Quality work
+						Frontend Developer with 3 months experience in web designing and
+						development, producting the Quality work
 					</span>
 				</div>
 				<Link to="contact" smooth={true} spy={true}>
 					<button className="button i-button">Hire me</button>
 				</Link>
+
 				{/* social icons */}
 				<div className="i-icons">
-					<a href="https://github.com/biplap12">
+					<a href="https://github.com/biplap12" target={"_blank"}>
 						{" "}
 						<img src={Github} alt="" />
 					</a>
-					<a href="https://www.linkedin.com/feed/">
+					<a href="https://www.linkedin.com/feed/" target={"_blank"}>
 						<img src={LinkedIn} alt="" />
 					</a>
-					<a href="">
+					<a href="https://www.instagram.com/" target={"_blank"}>
 						<img src={Instagram} alt="" />
 					</a>
 				</div>
@@ -59,8 +60,8 @@ const Intro = () => {
 					className="phoptp"
 					src={boy}
 					alt=""
-					height={"360rem"}
-					width={"300rem"}
+					height={"380rem"}
+					width={"250rem"}
 				/>
 				{/* animation */}
 				<motion.img
