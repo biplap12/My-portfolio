@@ -21,7 +21,7 @@ const Footer = () => {
 						{" "}
 						<Facebook color="white" size={"3rem"} />
 					</a>
-					<a href="https://www.linkedin.com/feed/" target={"_blank"}>
+					<a href="https://www.linkedin.com/in/biplap12/" target={"_blank"}>
 						<AiFillLinkedin color="white" size={"3rem"} />
 					</a>
 					<a href="https://github.com/biplap12" target={"_blank"}>
