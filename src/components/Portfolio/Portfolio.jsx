@@ -13,8 +13,8 @@ const Portfolio = () => {
 	return (
 		<div className="portfolio" id="portfolio">
 			{/* heading */}
-			<span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
-			<span>Portfolio</span>
+			{/* <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
+			<span>Portfolio</span> */}
 
 			{/* slider */}
 			<Swiper
@@ -23,15 +23,15 @@ const Portfolio = () => {
 				grabCursor={true}
 				className="portfolio-slider"
 			>
-				<SwiperSlide>
+				{/* <SwiperSlide>
 					<img src={Sidebar} alt="" />
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={Ecommerce} alt="" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<img src={MusicApp} alt="" />
-				</SwiperSlide>
+				</SwiperSlide> */}
+				{/* <SwiperSlide>
+					<img src={Intern} alt="" />
+				</SwiperSlide> */}
 			</Swiper>
 		</div>
 	);
