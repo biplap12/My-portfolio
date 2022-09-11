@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/me.png";
+import me from "../../img/me.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -58,7 +58,7 @@ const Intro = () => {
 				<img src={Vector2} alt="" />
 				<img
 					className="phoptp"
-					src={boy}
+					src={me}
 					alt=""
 					height={"380rem"}
 					width={"250rem"}
