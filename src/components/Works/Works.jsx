@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import Logo from "../../img/logo.png";
+import College from "../../img/College.png";
+
 import Name from "../../img/name.png";
 // import Amazon from "../../img/amazon.png";
 // import Shopify from "../../img/Shopify.png";
@@ -54,7 +56,13 @@ const Works = () => {
 					className="w-mainCircle"
 				>
 					<div className="w-secCircle">
-						<img src={Logo} alt="" />
+						<img
+							className="asssa"
+							src={College}
+							alt=""
+							height={"200px"}
+							width={"300px"}
+						/>
 					</div>
 					<div className="w-secCircle">
 						<img src={Logo} alt="" />
@@ -62,12 +70,12 @@ const Works = () => {
 					<div className="w-secCircle">
 						<img src={Name} alt="" height={"200px"} width={"200px"} />
 					</div>{" "}
-					<div className="w-secCircle">
+					{/* <div className="w-secCircle">
 						<img src={Logo} alt="" />
-					</div>
-					<div className="w-secCircle">
+					</div> */}
+					{/* <div className="w-secCircle">
 						<img src={Logo} alt="" />
-					</div>
+					</div> */}
 				</motion.div>
 				{/* background Circles */}
 				<div className="w-backCircle blueCircle"></div>
