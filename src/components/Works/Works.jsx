@@ -4,9 +4,8 @@ import Logo from "../../img/logo.png";
 import College from "../../img/College.png";
 
 import Name from "../../img/name.png";
-// import Amazon from "../../img/amazon.png";
-// import Shopify from "../../img/Shopify.png";
-// import Facebook from "../../img/Facebook.png";
+import Logo_college_project from "../../img/logo_college_project.png";
+import Logo_guitarshop from "../../img/logo-guitarshop.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -27,14 +26,9 @@ const Works = () => {
 					</span>
 					<span>Brands & Clients</span>
 					<spane>
-						Lorem ispum is simpley dummy text of printing of printing Lorem
-						<br />
-						ispum is simpley dummy text of printingLorem ispum is simpley dummy
-						text
-						<br />
-						y dummy text of printingLorem
-						<br />
-						ispum is simpley dummy text of printing
+						There are many different brands among my clientele. I aim to keep my
+						job as diverse as possible, thus <br />I don't commit to one field.
+						It keeps me sharp and enables me to learn new things.
 					</spane>
 					<Link to="contact" smooth={true} spy={true}>
 						<button className="button s-button">Hire Me</button>
@@ -70,12 +64,17 @@ const Works = () => {
 					<div className="w-secCircle">
 						<img src={Name} alt="" height={"200px"} width={"200px"} />
 					</div>{" "}
-					{/* <div className="w-secCircle">
-						<img src={Logo} alt="" />
-					</div> */}
-					{/* <div className="w-secCircle">
-						<img src={Logo} alt="" />
-					</div> */}
+					<div className="w-secCircle">
+						<img
+							src={Logo_college_project}
+							alt=""
+							height={"150px"}
+							width={"150px"}
+						/>
+					</div>
+					<div className="w-secCircle">
+						<img src={Logo_guitarshop} alt="" height={"55px"} width={"200px"} />
+					</div>
 				</motion.div>
 				{/* background Circles */}
 				<div className="w-backCircle blueCircle"></div>

@@ -14,17 +14,29 @@ const Footer = () => {
 			<div className="f-content">
 				<span>biplap.neupane2020@gmail.com</span>
 				<div className="f-icons">
-					<a href="https://www.instagram.com/" target={"_blank"}>
+					<a
+						href="https://www.instagram.com/biplap11"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						<Insta color="white" size={"3rem"} />
 					</a>
-					<a href="https://www.facebook.com/login/" target={"_blank"}>
+					{/* <a href="https://www.facebook.com/login/"  rel="noreferrer" target={"_blank"}>
 						{" "}
 						<Facebook color="white" size={"3rem"} />
-					</a>
-					<a href="https://www.linkedin.com/in/biplap12/" target={"_blank"}>
+					</a> */}
+					<a
+						href="https://www.linkedin.com/in/biplap12/"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						<AiFillLinkedin color="white" size={"3rem"} />
 					</a>
-					<a href="https://github.com/biplap12" target={"_blank"}>
+					<a
+						href="https://github.com/biplap12"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						{" "}
 						<Gitub color="white" size={"3rem"} />
 					</a>

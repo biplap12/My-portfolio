@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
+// import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+// import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
+// import Resume from "./resume.pdf";
 
 const Services = () => {
 	// context
@@ -27,13 +27,15 @@ const Services = () => {
 				<span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
 				<span>services</span>
 				<spane>
-					Lorem ispum is simpley dummy text of printing of printing Lorem
+					The most crucial aspect of a business success is how well its time is
 					<br />
-					ispum is simpley dummy text of printing
+					utilized, and designing websites is no different. I made an effort to
+					<br />
+					provide the client with customer-friendly work as quickly as possible.
 				</spane>
-				<a href={Resume} download>
+				{/* <a href={Resume} whileInView download>
 					<button className="button s-button">Download CV</button>
-				</a>
+				</a> */}
 				<div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
 			</div>
 			{/* right */}

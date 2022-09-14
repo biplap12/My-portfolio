@@ -28,10 +28,10 @@ const Intro = () => {
 				<div className="i-name">
 					{/* yahan change hy darkmode ka */}
 					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-					<span>Biplap Neupane</span>
+					<span>Biplap Neupane.</span>
 					<span>
 						Frontend Developer with 3 months experience in web designing and
-						development, producting the Quality work
+						development, producting the quality work.
 					</span>
 				</div>
 				<Link to="contact" smooth={true} spy={true}>
@@ -40,14 +40,26 @@ const Intro = () => {
 
 				{/* social icons */}
 				<div className="i-icons">
-					<a href="https://github.com/biplap12" target={"_blank"}>
+					<a
+						href="https://github.com/biplap12"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						{" "}
 						<img src={Github} alt="" />
 					</a>
-					<a href="https://www.linkedin.com/in/biplap12/" target={"_blank"}>
+					<a
+						href="https://www.linkedin.com/in/biplap12/"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						<img src={LinkedIn} alt="" />
 					</a>
-					<a href="https://www.instagram.com/" target={"_blank"}>
+					<a
+						href="https://www.instagram.com/biplap11"
+						rel="noreferrer"
+						target={"_blank"}
+					>
 						<img src={Instagram} alt="" />
 					</a>
 				</div>

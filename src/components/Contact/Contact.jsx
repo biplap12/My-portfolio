@@ -46,7 +46,12 @@ const Contact = () => {
 			{/* right side form */}
 			<div className="c-right">
 				<form ref={form} onSubmit={sendEmail}>
-					<input type="text" name="name" className="user" placeholder="Name" />
+					<input
+						type="text"
+						name="name"
+						className="user"
+						placeholder=" Full Name"
+					/>
 					<input
 						type="email"
 						name="email"
