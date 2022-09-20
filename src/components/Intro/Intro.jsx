@@ -72,6 +72,7 @@ const Intro = () => {
 					className="phoptp"
 					src={me}
 					alt=""
+					oncontextmenu="return false"
 					height={"380rem"}
 					width={"250rem"}
 				/>
@@ -100,7 +101,6 @@ const Intro = () => {
 					transition={transition}
 					className="floating-div"
 				>
-					{/* floatinDiv mein change hy dark mode ka */}
 					{/* <FloatinDiv img={thumbup} text1="Best Design" text2="Award" /> */}
 				</motion.div>
 

@@ -26,5 +26,9 @@
 @media screen and (max-width: 480px) {
 	.f-content {
 		transform: scale(0.5);
+		margin-top: 250px;
+	}
+	.wave_img {
+		margin-bottom: -45%;
 	}
 }

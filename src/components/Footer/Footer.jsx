@@ -10,7 +10,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 const Footer = () => {
 	return (
 		<div className="footer">
-			<img src={Wave} alt="" style={{ width: "100%" }} />
+			<img className="wave_img" src={Wave} alt="" style={{ width: "100%" }} />
 			<div className="f-content">
 				<span>biplap.neupane2020@gmail.com</span>
 				<div className="f-icons">
