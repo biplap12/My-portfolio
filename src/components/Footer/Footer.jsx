@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import LinkedIn from "../../img/linkedin.png";
+// import LinkedIn from "../../img/linkedin.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+// import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import { AiFillLinkedin } from "react-icons/ai";
 
@@ -37,7 +37,6 @@ const Footer = () => {
 						rel="noreferrer"
 						target={"_blank"}
 					>
-						{" "}
 						<Gitub color="white" size={"3rem"} />
 					</a>
 				</div>
