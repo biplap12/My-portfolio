@@ -26,8 +26,8 @@ function App() {
 			<Navbar />
 			<Intro />
 			<Services />
-			<Experience />
 			<Works />
+			<Experience />
 			{/* <MyFiles /> */}
 			{/* <Portfolio /> */}
 			{/* <Testimonial /> */}

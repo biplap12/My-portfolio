@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import Logo from "../../img/logo.png";
-import College from "../../img/College.png";
+import Webbook from "../../img/webbook.png";
 
-import Name from "../../img/name.png";
+import WebHMS from "../../img/webhms.png";
 import Logo_college_project from "../../img/logo_college_project.png";
 import Logo_guitarshop from "../../img/logo-guitarshop.png";
 import { themeContext } from "../../Context";
@@ -50,19 +50,13 @@ const Works = () => {
 					className="w-mainCircle"
 				>
 					<div className="w-secCircle">
-						<img
-							className="asssa"
-							src={College}
-							alt=""
-							height={"200px"}
-							width={"300px"}
-						/>
+						<img src={Webbook} alt="Webbook" height={"200px"} width={"170px"} />
 					</div>
 					<div className="w-secCircle">
 						<img src={Logo} alt="" />
 					</div>
 					<div className="w-secCircle">
-						<img src={Name} alt="" height={"200px"} width={"200px"} />
+						<img src={WebHMS} alt="" height={"100px"} width={"150px"} />
 					</div>{" "}
 					<div className="w-secCircle">
 						<img

@@ -2,9 +2,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-left: -15rem;
 	gap: 5rem;
 	height: 30vh;
-	margin-bottom: 5rem;
+	margin-top: -5rem;
+
 	/* darkmode */
 	color: var(--black);
 }
@@ -45,6 +47,7 @@
 
 @media screen and (max-width: 480px) {
 	.experience {
-		transform: scale(0.7);
+		transform: scale(0.8);
+		margin-left: auto;
 	}
 }

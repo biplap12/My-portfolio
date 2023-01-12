@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-// import HeartEmoji from "../../img/heartemoji.png";
+import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
-// import Humble from "../../img/humble.png";
+import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import Resume from "./resume.pdf";
@@ -15,7 +15,7 @@ const Services = () => {
 
 	// transition
 	const transition = {
-		duration: 1,
+		duration: 1.5,
 		type: "spring",
 	};
 
@@ -46,16 +46,16 @@ const Services = () => {
 					whileInView={{ /*left: "14rem"*/ left: "25rem" }}
 					transition={transition}
 				>
-					{/* <Card
+					<Card
 						emoji={HeartEmoji}
-						heading={"Design"}
-						detail={"Figma, Photoshop"}
-					/> */}
+						heading={"Database"}
+						detail={"Microsoft SQL server"}
+					/>
 				</motion.div>
 				{/* second card */}
 				<motion.div
 					initial={{ left: "-11rem", top: "12rem" }}
-					whileInView={{ /*left: "-4rem"*/ left: "25rem" }}
+					whileInView={{ left: "4rem" /*left: "25rem"*/ }}
 					transition={transition}
 				>
 					<Card
@@ -66,18 +66,18 @@ const Services = () => {
 				</motion.div>
 				{/* 3rd */}
 				<motion.div
-					initial={{ top: "19rem", left: "25rem" }}
-					whileInView={{ left: "12rem" }}
+					initial={{ top: "19rem", left: "12rem" }}
+					whileInView={{ left: "25rem" }}
 					transition={transition}
 				>
-					{/* <Card
+					<Card
 						emoji={Humble}
-						heading={"UI/UX"}
+						heading={"IT Support & Services"}
 						detail={
-							"Lorem ispum dummy text are usually use in section where we need some random text"
+							"Hotel,Restaurants,Mart, Dental Hospital,Motors Management System"
 						}
 						color="rgba(252, 166, 31, 0.45)"
-					/> */}
+					/>
 				</motion.div>
 				<div
 					className="blur s-blur2"

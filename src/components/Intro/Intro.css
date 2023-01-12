@@ -92,6 +92,9 @@
 	left: 56%;
 	filter: blur(72px);
 }
+.itsupport {
+	margin-top: 2rem;
+}
 .phoptp {
 	margin-left: -9px;
 	margin-top: 3.9px;
@@ -115,6 +118,15 @@
 		/* display: none; */
 		top: -7rem !important;
 	}
+	.itsupport {
+		margin-top: -25rem;
+		margin-left: -60%;
+	}
+	.glassemoji {
+		margin-top: 2rem;
+		margin-left: 0.51rem;
+	}
+
 	.phoptp {
 		margin-top: 11%;
 		margin-left: 23.9%;

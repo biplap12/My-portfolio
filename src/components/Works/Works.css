@@ -2,7 +2,7 @@
 	padding: 0 3rem 0 3rem;
 	display: flex;
 	height: 90vh;
-	margin-top: 4rem;
+	margin-top: -6rem;
 
 	/* scroll */
 	align-items: center;
@@ -75,9 +75,7 @@
 	left: 6rem;
 	top: 13rem;
 }
-.asssa {
-	margin-top: 25px;
-}
+
 .w-secCircle {
 	width: 6rem;
 	height: 6rem;
@@ -121,6 +119,7 @@
 		height: 55rem;
 		padding: 0;
 		gap: 5rem;
+		margin-top: -15rem;
 	}
 
 	.w-right {

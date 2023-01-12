@@ -83,6 +83,7 @@ const Intro = () => {
 					transition={transition}
 					src={glassesimoji}
 					alt=""
+					className="glassemoji"
 				/>
 
 				<motion.div
@@ -96,12 +97,12 @@ const Intro = () => {
 
 				{/* animation */}
 				<motion.div
-					initial={{ left: "9rem", top: "18rem" }}
-					whileInView={{ left: "0rem" }}
+					initial={{ left: "6rem", top: "18rem" }}
+					whileInView={{ left: "65%" }}
 					transition={transition}
-					className="floating-div"
+					className="floating-div itsupport"
 				>
-					{/* <FloatinDiv img={thumbup} text1="Best Design" text2="Award" /> */}
+					<FloatinDiv img={thumbup} text1="IT Support" text2="& Services" />
 				</motion.div>
 
 				<div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
