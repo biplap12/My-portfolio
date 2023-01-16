@@ -74,7 +74,7 @@ const Services = () => {
 						emoji={Humble}
 						heading={"IT Support & Services"}
 						detail={
-							"Hotel,Restaurants,Mart, Dental Hospital,Motors Management System"
+							"Hotel,Restaurants, Mart, Dental Hospital, Motors Management System"
 						}
 						color="rgba(252, 166, 31, 0.45)"
 					/>
