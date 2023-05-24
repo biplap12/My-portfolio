@@ -13,7 +13,7 @@ const Experience = () => {
 					className="circle"
 					style={{ color: darkMode ? "var(--orange)" : "" }}
 				>
-					4+
+					6+
 				</div>
 				<span style={{ color: darkMode ? "white" : "" }}>Months </span>
 				<span>Experience</span>
