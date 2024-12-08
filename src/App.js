@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import { Toaster } from "react-hot-toast";
 
 function App() {
 	const theme = useContext(themeContext);
@@ -33,6 +34,7 @@ function App() {
 			{/* <Testimonial /> */}
 			<Contact />
 			<Footer />
+			<Toaster />
 		</div>
 	);
 }
