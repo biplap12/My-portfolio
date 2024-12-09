@@ -13,6 +13,8 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import { TypeAnimation } from 'react-type-animation';
+
 const Intro = () => {
 	// Transition
 	const transition = { duration: 2, type: "spring" };
@@ -27,10 +29,20 @@ const Intro = () => {
 			<div className="i-left">
 				<div className="i-name">
 					{/* yahan change hy darkmode ka */}
-					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
-					<span>Biplap Neupane.</span>
-					<span>
-						Frontend Developer with 4 months experience in web designing,
+					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am </span>
+					<TypeAnimation
+						sequence={[
+						"Biplap Neupane.", 
+						1000, 
+						"Full Stack Developer.",
+						2000, // Pause again
+						]}
+						cursor={true}
+						repeat={Infinity}
+						style={{ display: "inline-block",color:"#fca61f" }}
+					/>
+					<span style={{ fontSize: "1rem", color: darkMode ? "white" : "" }}>
+						Frontend Developer with 6 months experience in web designing,
 						development and IT support and services producting the quality work.
 					</span>
 				</div>

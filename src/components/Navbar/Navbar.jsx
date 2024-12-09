@@ -29,11 +29,11 @@ const navbar = () => {
 								Experience
 							</Link>
 						</li>
-						{/* <li>
+						<li>
 							<Link to="portfolio" spy={true} smooth={true}>
 								Protfolio
 							</Link>
-						</li> */}
+						</li>
 						{/* <li>
 							<Link to="testimonial" spy={true} smooth={true}>
 								Testimonial

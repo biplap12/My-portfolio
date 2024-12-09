@@ -1,12 +1,23 @@
-.backTopButton {
-	background-color: rgb(29, 44, 35);
-	border: none;
-	width: 35px;
-	cursor: pointer;
-	margin: -800px 0px 0px 200px;
-	z-index: -1;
-}
-/* .backTopButton:hover {
-	background-color: red;
+.back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 0;
+	background-color: #fca61f;
 	color: white;
-} */
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s ease;
+  }
+  
+  .back-to-top:hover {
+	background-color: #f5c32c;
+  }
+  
+  

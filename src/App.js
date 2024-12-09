@@ -5,13 +5,14 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 // import MyFiles from "./components/MyFiles/myFiles";
-// import Portfolio from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 //import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import { Toaster } from "react-hot-toast";
+import BackToTop from "./components/backToTop/backToTop";
 
 function App() {
 	const theme = useContext(themeContext);
@@ -30,11 +31,12 @@ function App() {
 			<Works />
 			<Experience />
 			{/* <MyFiles /> */}
-			{/* <Portfolio /> */}
+			<Portfolio />
 			{/* <Testimonial /> */}
 			<Contact />
 			<Footer />
-			<Toaster />
+			<BackToTop	/>
+			<Toaster position="top-right" />
 		</div>
 	);
 }
