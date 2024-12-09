@@ -4,7 +4,6 @@
 	margin-top: 6rem;
 }
 
-/* left side styling */
 .i-left {
 	display: flex;
 	position: relative;
@@ -48,7 +47,6 @@
 .i-icons > *:hover {
 	cursor: pointer;
 }
-/* right side styling */
 .i-right {
 	flex: 1;
 	position: relative;
@@ -79,7 +77,6 @@
 	padding: 0;
 }
 
-/* blur */
 .blur {
 	position: absolute;
 	width: 22rem;
@@ -115,7 +112,6 @@
 		display: none;
 	}
 	.floating-div:nth-of-type(1) {
-		/* display: none; */
 		top: -7rem !important;
 	}
 	.itsupport {

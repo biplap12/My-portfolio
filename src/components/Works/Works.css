@@ -118,8 +118,7 @@
 		flex-direction: column;
 		height: 55rem;
 		padding: 0;
-		gap: 5rem;
-		margin-top: -15rem;
+		gap: 3rem;
 	}
 
 	.w-right {

@@ -51,21 +51,19 @@ const Contact = () => {
 						type="text"
 						name="name"
 						className="user"
-						placeholder=" Full Name"
+						placeholder=" Enter Your FullName"
 						autoComplete="off"
-						required
 					/>
 					<input
 						type="email"
 						name="email"
 						className="user"
-						placeholder="Email"
+						placeholder=" Enter Your Email"
 						autoComplete="off"
-						required
 					/>
 					<textarea name="message" className="user" placeholder="Message" 
 					autoComplete="off"
-						required/>
+						/>
 					<input type="submit" value="Send" className="button" />
 					{/* <span>{done && "Thanks for Contacting me"}</span> */}
 					<div
