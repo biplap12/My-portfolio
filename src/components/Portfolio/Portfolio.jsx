@@ -39,7 +39,7 @@ const Portfolio = () => {
           1024: { slidesPerView: 3 },
         }}
         modules={[Pagination]}
-        className="portfolio-slider "
+        className="portfolio-slider"
         style={{ color: darkMode ? "white" : "" }}
 
       >

@@ -33,13 +33,10 @@ const navbar = () => {
 							<Link to="portfolio" spy={true} smooth={true}>
 								Protfolio
 							</Link>
-<<<<<<< HEAD
 						</li> 
 						 {/* <li>
-=======
 						</li>
 						{/* <li>
->>>>>>> 46672a81e239641e6893e8e15cce8a55bb4130c3
 							<Link to="testimonial" spy={true} smooth={true}>
 								Testimonial
 							</Link>

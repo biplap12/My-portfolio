@@ -1,49 +1,94 @@
+/* Portfolio Container */
 .portfolio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 70vh;
-
-}
-/* heading */
-.portfolio span:nth-of-type(1) {
-  color: var(--black);
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  padding: 2rem;
   color: #333;
+  text-align: center;
 }
-.portfolio span:nth-of-type(2) {
-  color: var(--orange);
+
+/* Header Section */
+.portfolio-header span:first-child {
+  color: var(--black);
+	font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-header span:last-child {
   font-size: 2.5rem;
   font-weight: bold;
+  color: var(--orange);
+  margin-bottom: 2rem;
+  display: block;
 }
 
-/* slider */
-.portfolio .swiper{
-    overflow: visible!important;
-}
-
-/* Swiper Styles */
+/* Swiper Slider */
 .portfolio-slider {
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.portfolio-slider img {
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
   width: 100%;
-  height: auto;
+  max-width: 400px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.portfolio-slider .swiper-slide {
-  width: 20rem;
-}
-.portfolio img {
-  width: 19rem;
-  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-  border-radius: 19px;
+.swiper-slide img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* Pagination */
+.swiper-pagination-bullet {
+  background:var(--orange);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0056b3;
+  opacity: 1;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 1rem;
+  }
+
+  .portfolio-header span:first-child {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-header span:last-child {
+    font-size: 1.8rem;
+  }
+
+  .swiper-slide img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-header span:first-child {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-header span:last-child {
+    font-size: 1.5rem;
+  }
+
+  .swiper-slide img {
+    max-width: 300px;
+    width: 100%;
+  }
+}
