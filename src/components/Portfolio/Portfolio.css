@@ -92,3 +92,20 @@
     width: 100%;
   }
 }
+
+.portfolio-slider {
+  transition: all 0.3s ease;
+}
+
+.portfolio-slider:hover {
+  cursor: pointer;  /* Change cursor to pointer to indicate interactivity */
+}
+
+.portfolio-slider .swiper-wrapper {
+  pointer-events: auto; /* Enable interaction with the slides when hovering */
+}
+
+/* Stop autoplay on hover */
+.portfolio-slider:hover .swiper-container {
+  animation-play-state: paused;
+}
