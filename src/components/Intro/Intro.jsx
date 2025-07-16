@@ -44,20 +44,14 @@ const Intro = () => {
           aria-label="Intro Biplap Neupane."
           oncontextmenu="return false"
         >
-          {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am </span>
+          <h1 style={{ color: darkMode ? "white" : "" }}>Hey! I Am </h1>
           <TypeAnimation
-            sequence={[
-              "Biplap Neupane.",
-              1000,
-              "Full Stack Developer.",
-              2000, // Pause again
-            ]}
+            sequence={["Biplap Neupane.", 1000, "Full Stack Developer.", 2000]}
             cursor={true}
             repeat={Infinity}
             style={{ display: "inline-block", color: "#fca61f" }}
           />
-          <span
+          <p
             style={{ fontSize: "1rem", color: darkMode ? "white" : "" }}
             aria-details="Full Stack Developer Biplap Neupane."
             aria-label="Full Stack Developer Biplap Neupane."
@@ -66,7 +60,7 @@ const Intro = () => {
             Full Stack Developer with 1 year experience in web designing,
             development,server side development and IT support and services
             producting the quality work.
-          </span>
+          </p>
         </div>
         <Link
           to="contact"
