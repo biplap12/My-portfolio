@@ -25,3 +25,5 @@ dist-ssr
 
 .cache/
 node_modules/
+
+build1
