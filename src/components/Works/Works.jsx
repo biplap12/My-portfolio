@@ -2,8 +2,7 @@ import React, { useContext } from "react";
 import "./Works.css";
 import Logo from "../../img/logo.png";
 import Webbook from "../../img/webbook.png";
-
-import WebHMS from "../../img/webhms.png";
+import WebX from "../../img/webx_logo.jpeg";
 import Logo_college_project from "../../img/logo_college_project.png";
 import Logo_guitarshop from "../../img/logo-guitarshop.png";
 import { themeContext } from "../../Context";
@@ -49,30 +48,29 @@ const Works = () => {
 					transition={{ duration: 3.5, type: "spring" }}
 					className="w-mainCircle"
 				>
-					<div className="w-secCircle">
-						<img src={Webbook} alt="Webbook" height={"200px"} width={"170px"} />
+					<div className="w-secCircle" >
+						<img src={Webbook} aria-details="Webbook" aria-label="Webbook" alt="Webbook" height={"200px"} width={"170px"} />
 					</div>
 					<div className="w-secCircle">
-						<img src={Logo} alt="" />
+						<img src={Logo} aria-details="Eydean Logo by biplap neupane" aria-label="Eydean Logo by biplap neupane" alt="Eydean Logo by biplap neupane" />
 					</div>
 					<div className="w-secCircle">
-						<img src={WebHMS} alt="" height={"100px"} width={"150px"} />
+						<img src={WebX} aria-details="WebXNep IT Company —Biplap Neupane" aria-label="WebXNep IT Company —Biplap Neupane" alt="WebXNep IT Company —Biplap Neupane" height={"200px"} width={"200px"} />
 					</div>{" "}
 					<div className="w-secCircle">
 						<img
 							src={Logo_college_project}
-							alt=""
-							height={"150px"}
+							aria-details="Logo college project" aria-label="Logo college project" alt="Logo college project" height={"150px"}
 							width={"150px"}
 						/>
 					</div>
 					<div className="w-secCircle">
-						<img src={Logo_guitarshop} alt="" height={"55px"} width={"200px"} />
+						<img src={Logo_guitarshop} aria-details="Guitarshop web project by biplap neupane" aria-label="Guitarshop web project by biplap neupane" alt="Guitarshop web project by biplap neupane" height={"55px"} width={"200px"} />
 					</div>
 				</motion.div>
 				{/* background Circles */}
-				<div className="w-backCircle blueCircle"></div>
-				<div className="w-backCircle yellowCircle"></div>
+				<div className="w-backCircle blueCircle" aria-details="blueCircle" aria-label="blueCircle"></div>
+				<div className="w-backCircle yellowCircle" aria-details="yellowCircle" aria-label="yellowCircle"></div>
 			</div>
 		</div>
 	);

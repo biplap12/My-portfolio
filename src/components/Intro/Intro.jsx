@@ -13,124 +13,227 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 const Intro = () => {
-	// Transition
-	const transition = { duration: 2, type: "spring" };
+  // Transition
+  const transition = { duration: 2, type: "spring" };
 
-	// context
-	const theme = useContext(themeContext);
-	const darkMode = theme.state.darkMode;
+  // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
 
-	return (
-		<div className="Intro" id="Intro">
-			{/* left name side */}
-			<div className="i-left">
-				<div className="i-name">
-					{/* yahan change hy darkmode ka */}
-					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am </span>
-					<TypeAnimation
-						sequence={[
-						"Biplap Neupane.", 
-						1000, 
-						"Full Stack Developer.",
-						2000, // Pause again
-						]}
-						cursor={true}
-						repeat={Infinity}
-						style={{ display: "inline-block",color:"#fca61f" }}
-					/>
-					<span style={{ fontSize: "1rem", color: darkMode ? "white" : "" }}>
-						Frontend Developer with 6 months experience in web designing,
-						development and IT support and services producting the quality work.
-					</span>
-				</div>
-				<Link to="contact" smooth={true} spy={true}>
-					<button className="button i-button">Hire me</button>
-				</Link>
+  return (
+    <div
+      className="Intro"
+      id="Intro"
+      aria-details="Intro Biplap Neupane."
+      aria-label="Intro Biplap Neupane."
+      oncontextmenu="return false"
+    >
+      {/* left name side */}
+      <div
+        className="i-left"
+        aria-details="Intro Biplap Neupane."
+        aria-label="Intro Biplap Neupane."
+        oncontextmenu="return false"
+      >
+        <div
+          className="i-name"
+          aria-details="Intro Biplap Neupane."
+          aria-label="Intro Biplap Neupane."
+          oncontextmenu="return false"
+        >
+          {/* yahan change hy darkmode ka */}
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am </span>
+          <TypeAnimation
+            sequence={[
+              "Biplap Neupane.",
+              1000,
+              "Full Stack Developer.",
+              2000, // Pause again
+            ]}
+            cursor={true}
+            repeat={Infinity}
+            style={{ display: "inline-block", color: "#fca61f" }}
+          />
+          <span
+            style={{ fontSize: "1rem", color: darkMode ? "white" : "" }}
+            aria-details="Full Stack Developer Biplap Neupane."
+            aria-label="Full Stack Developer Biplap Neupane."
+            oncontextmenu="return false"
+          >
+            Full Stack Developer with 1 year experience in web designing,
+            development,server side development and IT support and services
+            producting the quality work.
+          </span>
+        </div>
+        <Link
+          to="contact"
+          smooth={true}
+          spy={true}
+          aria-details="Hire me Biplap Neupane."
+          aria-label="Hire me Biplap Neupane."
+          oncontextmenu="return false"
+        >
+          <button
+            className="button i-button"
+            aria-details="Hire me Biplap Neupane."
+            aria-label="Hire me Biplap Neupane."
+            oncontextmenu="return false"
+          >
+            Hire me
+          </button>
+        </Link>
 
-				{/* social icons */}
-				<div className="i-icons">
-					<a
-						href="https://github.com/biplap12"
-						rel="noreferrer"
-						target={"_blank"}
-					>
-						{" "}
-						<img src={Github} alt="" />
-					</a>
-					<a
-						href="https://www.linkedin.com/in/biplap12/"
-						rel="noreferrer"
-						target={"_blank"}
-					>
-						<img src={LinkedIn} alt="" />
-					</a>
-					<a
-						href="https://www.instagram.com/biplap11"
-						rel="noreferrer"
-						target={"_blank"}
-					>
-						<img src={Instagram} alt="" />
-					</a>
-				</div>
-			</div>
-			{/* right image side */}
-			<div className="i-right">
-				<img src={Vector1} alt="" />
-				<img src={Vector2} alt="" />
-				<img
-					className="phoptp"
-					src={me}
-					alt=""
-					oncontextmenu="return false"
-					height={"380rem"}
-					width={"250rem"}
-				/>
-				{/* animation */}
-				<motion.img
-					initial={{ left: "-36%" }}
-					whileInView={{ left: "-24%" }}
-					transition={transition}
-					src={glassesimoji}
-					alt=""
-					className="glassemoji"
-				/>
+        {/* social icons */}
+        <div className="i-icons">
+          <a
+            href="https://github.com/biplap12"
+            rel="noreferrer"
+            target={"_blank"}
+            oncontextmenu="return false"
+            aria-details="https://github.com/biplap12"
+            aria-label="github Biplap Neupane biplap12"
+          >
+            {" "}
+            <img
+              src={Github}
+              alt="github biplap12"
+              aria-details="https://github.com/biplap12"
+              aria-label="github biplap12"
+              oncontextmenu="return false"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/biplap12/"
+            rel="noreferrer"
+            target={"_blank"}
+            oncontextmenu="return false"
+            aria-details="https://www.linkedin.com/in/biplap12/"
+            aria-label="linkedin Biplap Neupane biplap12"
+          >
+            <img
+              src={LinkedIn}
+              alt="linkedin biplap12"
+              aria-details="https://www.linkedin.com/in/biplap12/"
+              aria-label="linkedin biplap12"
+              oncontextmenu="return false"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/biplap11"
+            rel="noreferrer"
+            target={"_blank"}
+            oncontextmenu="return false"
+            aria-details="https://www.instagram.com/biplap11"
+            aria-label="instagram Biplap Neupane biplap11"
+          >
+            <img
+              src={Instagram}
+              alt="instagram Biplap Neupane biplap11"
+              aria-details="https://www.instagram.com/biplap11"
+              aria-label="instagram Biplap Neupane biplap11"
+              oncontextmenu="return false"
+            />
+          </a>
+        </div>
+      </div>
+      {/* right image side */}
+      <div className="i-right">
+        <img
+          src={Vector1}
+          alt="vector1 biplap12"
+          aria-details="vector1 biplap12"
+          aria-label="vector1 biplap12"
+        />
+        <img
+          src={Vector2}
+          alt="vector2 biplap12"
+          aria-details="vector2 biplap12"
+          aria-label="vector2 biplap12"
+        />
+        <img
+          className="phoptp"
+          src={me}
+          alt="Full Stack Developer Biplap Neupane profile_picture"
+          oncontextmenu="return false"
+          height={"380rem"}
+          width={"250rem"}
+          aria-details="Full Stack Developer Biplap Neupane profile_picture"
+          aria-label="Full Stack Developer Biplap Neupane profile_picture"
+        />
+        {/* animation */}
+        <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt="glassesimoji biplap12 Full Stack Developer Biplap Neupane"
+          className="glassemoji"
+          oncontextmenu="return false"
+          aria-details="glassesimoji biplap12 Full Stack Developer Biplap Neupane"
+          aria-label="glassesimoji biplap12 Full Stack Developer Biplap Neupane"
+        />
 
-				<motion.div
-					initial={{ top: "-4%", left: "74%" }}
-					whileInView={{ left: "68%" }}
-					transition={transition}
-					className="floating-div"
-				>
-					<FloatinDiv img={crown} text1="Web" text2="Developer" />
-				</motion.div>
+        <motion.div
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          className="floating-div"
+          aria-details="floating-div biplap12 Full Stack Developer Biplap Neupane"
+          aria-label="floating-div biplap12 Full Stack Developer Biplap Neupane"
+        >
+          <FloatinDiv
+            img={crown}
+            text1="Web"
+            text2="Developer"
+            oncontextmenu="return false"
+            aria-details="floating-div biplap12 Full Stack Developer Biplap Neupane"
+            aria-label="floating-div biplap12 Full Stack Developer Biplap Neupane"
+          />
+        </motion.div>
 
-				{/* animation */}
-				<motion.div
-					initial={{ left: "6rem", top: "18rem" }}
-					whileInView={{ left: "65%" }}
-					transition={transition}
-					className="floating-div itsupport"
-				>
-					<FloatinDiv img={thumbup} text1="IT Support" text2="& Services" />
-				</motion.div>
+        {/* animation */}
+        <motion.div
+          initial={{ left: "6rem", top: "18rem" }}
+          whileInView={{ left: "65%" }}
+          transition={transition}
+          className="floating-div itsupport"
+          aria-details="floating-div biplap12 Full Stack Developer Biplap Neupane"
+          aria-label="floating-div biplap12 Full Stack Developer Biplap Neupane"
+        >
+          <FloatinDiv
+            img={thumbup}
+            text1="IT Support"
+            text2="& Services"
+            oncontextmenu="return false"
+            aria-details="floating-div biplap12 Full Stack Developer Biplap Neupane"
+            aria-label="floating-div biplap12 Full Stack Developer Biplap Neupane"
+          />
+        </motion.div>
 
-				<div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-				<div
-					className="blur"
-					style={{
-						background: "#C1F5FF",
-						top: "17rem",
-						width: "21rem",
-						height: "11rem",
-						left: "-9rem",
-					}}
-				></div>
-			</div>
-		</div>
-	);
+        <div
+          className="blur"
+          style={{ background: "rgb(238 210 255)" }}
+          aria-details="blur biplap12 Full Stack Developer Biplap Neupane"
+          aria-label="blur biplap12 Full Stack Developer Biplap Neupane"
+        ></div>
+        <div
+          className="blur"
+          aria-details="blur biplap12 Full Stack Developer Biplap Neupane"
+          aria-label="blur biplap12 Full Stack Developer Biplap Neupane"
+          style={{
+            background: "#C1F5FF",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
+      </div>
+    </div>
+  );
 };
 
 export default Intro;

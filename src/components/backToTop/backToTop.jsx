@@ -33,7 +33,7 @@ const BackToTop = () => {
   return (
     <>
       {isVisible && (
-        <button onClick={scrollToTop} className="back-to-top">
+        <button onClick={scrollToTop} className="back-to-top" aria-details="back-to-top biplap12 Full Stack Developer Biplap Neupane" aria-label="back-to-top biplap12 Full Stack Developer Biplap Neupane" oncontextmenu="return false">
           <MdOutlineArrowCircleUp size={40} />
         </button>
       )}

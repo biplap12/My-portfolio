@@ -13,6 +13,17 @@
 @tailwind components;
 @tailwind utilities; */
 
+html, body {
+	scrollbar-width: none;         /* Firefox */
+	-ms-overflow-style: none;      /* Internet Explorer/Edge */
+	overflow: scroll;
+  }
+  
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+	display: none;                 /* Chrome, Safari */
+  }
+  
 
 .App {
 	padding: 0.5rem 3.5rem;
