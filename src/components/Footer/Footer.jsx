@@ -37,7 +37,7 @@ const Footer = () => {
             aria-label="Instagram profile of biplap11"
             onContextMenu={(e) => e.preventDefault()}
           >
-            <Insta color="white" size={"3rem"} />
+            <Insta color="white" size={"2rem"} />
           </a>
           <a
             href="https://www.linkedin.com/in/biplap12/"
@@ -47,7 +47,7 @@ const Footer = () => {
             onContextMenu={(e) => e.preventDefault()}
             style={{ color: "white" }}
           >
-            <AiFillLinkedin color="white" size={"3rem"} />
+            <AiFillLinkedin color="white" size={"2rem"} />
           </a>
           <a
             href="https://github.com/biplap12"
@@ -57,9 +57,14 @@ const Footer = () => {
             onContextMenu={(e) => e.preventDefault()}
             style={{ color: "white" }}
           >
-            <Gitub color="white" size={"3rem"} />
+            <Gitub color="white" size={"2rem"} />
           </a>
         </div>
+
+        {/* Copyright Notice */}
+        <p>
+          &copy; {new Date().getFullYear()} Biplap Neupane. All rights reserved.
+        </p>
       </div>
     </div>
   );

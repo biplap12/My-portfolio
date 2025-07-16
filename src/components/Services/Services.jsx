@@ -26,13 +26,13 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <span aria-label="The most crucial aspect of a business success is how well its time is utilized, and designing websites is no different. I made an effort to provide the client with customer-friendly work as quickly as possible.">
+        <p style={{ fontSize: "1rem", color: darkMode ? "white" : "" }}>
           The most crucial aspect of a business success is how well its time is
           <br />
           utilized, and designing websites is no different. I made an effort to
           <br />
           provide the client with customer-friendly work as quickly as possible.
-        </span>
+        </p>
         {/* <a href={Resume} whileInView download>
 					<button className="button s-button">Download CV</button>
 				</a> */}
@@ -45,6 +45,7 @@ const Services = () => {
           initial={{ /*left: "25rem"*/ left: "35rem" }}
           whileInView={{ /*left: "14rem"*/ left: "25rem" }}
           transition={transition}
+          aria-details="Database biplap neupane"
         >
           <Card
             emoji={HeartEmoji}
@@ -60,7 +61,7 @@ const Services = () => {
           whileInView={{ left: "4rem" /*left: "25rem"*/ }}
           aria-label="Full Stack Developer "
           transition={transition}
-		  aria-details="Full Stack Developer biplap neupane"
+          aria-details="Full Stack Developer biplap neupane"
         >
           <Card
             emoji={Glasses}
@@ -76,6 +77,7 @@ const Services = () => {
           whileInView={{ left: "25rem" }}
           aria-label="IT Support & Services"
           transition={transition}
+          aria-details="IT Support & Services biplap neupane"
         >
           <Card
             emoji={Humble}

@@ -14,13 +14,17 @@
 	flex-direction: column;
 	width: 100%;
 	margin-top: 4rem;
-	gap: 4rem;
+	gap: 3rem;
 	color: white;
 }
 .f-icons {
 	display: flex;
 	gap: 2rem;
 	margin-top: -50px;
+}
+.f-content p {
+	color: white;
+	font-size: 0.9rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -29,6 +33,6 @@
 		margin-top: 250px;
 	}
 	.wave_img {
-		margin-bottom: -45%;
+		margin-bottom: -35%;
 	}
 }

@@ -2,7 +2,7 @@
 .portfolio {
   padding: 2rem;
   color: #333;
-  text-align: center;
+  text-align: start;
 }
 
 /* Header Section */
@@ -65,13 +65,13 @@
     padding: 1rem;
   }
 
-  .portfolio-header span:first-child {
+  /* .portfolio-header span:first-child {
     font-size: 1.5rem;
   }
 
   .portfolio-header span:last-child {
     font-size: 1.8rem;
-  }
+  } */
 
   .swiper-slide img {
     max-width: 300px;
@@ -79,13 +79,13 @@
 }
 
 @media (max-width: 480px) {
-  .portfolio-header span:first-child {
-    font-size: 1.2rem;
+  /* .portfolio-header span:first-child {
+    font-size: 2rem;
   }
 
   .portfolio-header span:last-child {
-    font-size: 1.5rem;
-  }
+    font-size: 2rem;
+  } */
 
   .swiper-slide img {
     max-width: 300px;
