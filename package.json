@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "engines": {
-  "node": "18",
-  "npm": "9"
+  "node": "22.15.0",
+  "npm": "10.9.2"
 },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
