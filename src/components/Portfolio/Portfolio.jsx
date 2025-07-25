@@ -13,6 +13,7 @@ import hms from "../../img/hms.png";
 import nanofinance from "../../img/nanofinance.png";
 import BnEstate from "../../img/BnEstate.png";
 import imageSearchApp from "../../img/imageSearchApp.png";
+import shreeDharapaniSamaj from "../../img/shreedharapani.png";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -45,14 +46,13 @@ const Portfolio = () => {
         }}
         modules={[Pagination, Autoplay]}
         className="portfolio-slider"
-        style={{ color: darkMode ? "white" : "" }}
-      >
+        style={{ color: darkMode ? "white" : "" }}>
         <SwiperSlide>
           <a
             referrerPolicy="no-referrer"
             rel="noreferrer"
-            href="https://github.com/biplap12/ecommerce_grocery_store.git"
-          >
+            target="_blank"
+            href="https://github.com/biplap12/ecommerce_grocery_store.git">
             <img
               src={BNStore}
               alt="BN Store Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -61,10 +61,22 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a
+            href="https://dharapani-neupane-samaj.biplapneupane.com.np/"
+            rel="noreferrer"
+            target="_blank"
+            referrerPolicy="no-referrer">
+            <img
+              src={shreeDharapaniSamaj}
+              alt="Shree Dharapani Samaj Project made with React.js and Tailwind CSS by Biplap Neupane"
+            />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
             referrerPolicy="no-referrer"
             rel="noreferrer"
-            href="https://github.com/biplap12/Attendance-Management-using-Face-Recognition.git"
-          >
+            target="_blank"
+            href="https://github.com/biplap12/Attendance-Management-using-Face-Recognition.git">
             <img
               src={epm}
               alt="Employee Management System Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -75,8 +87,8 @@ const Portfolio = () => {
           <a
             href="https://biplap-neupane.vercel.app/"
             rel="noreferrer"
-            referrerPolicy="no-referrer"
-          >
+            target="_blank"
+            referrerPolicy="no-referrer">
             <img
               src={portfolio}
               alt="Portfolio Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -87,8 +99,8 @@ const Portfolio = () => {
           <a
             href="https://hms-frontendbpbiplap.vercel.app/"
             rel="noreferrer"
-            referrerPolicy="no-referrer"
-          >
+            target="_blank"
+            referrerPolicy="no-referrer">
             <img
               src={hms}
               alt="Hospital Management System Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -99,8 +111,8 @@ const Portfolio = () => {
           <a
             href="https://github.com/biplap12/NanoFinance.git"
             rel="noreferrer"
-            referrerPolicy="no-referrer"
-          >
+            target="_blank"
+            referrerPolicy="no-referrer">
             <img
               src={nanofinance}
               alt="Nanofinance Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -111,8 +123,8 @@ const Portfolio = () => {
           <a
             href="https://bn-estate.vercel.app/"
             rel="noreferrer"
-            referrerPolicy="no-referrer"
-          >
+            target="_blank"
+            referrerPolicy="no-referrer">
             <img
               src={BnEstate}
               alt="BnEstate Project made with React.js and Tailwind CSS by Biplap Neupane"
@@ -123,8 +135,8 @@ const Portfolio = () => {
           <a
             href="https://github.com/biplap12/Image_Search_App.git"
             rel="noreferrer"
-            referrerPolicy="no-referrer"
-          >
+            target="_blank"
+            referrerPolicy="no-referrer">
             <img
               src={imageSearchApp}
               alt="Images Search App Project made with React.js and Tailwind CSS by Biplap Neupane"
