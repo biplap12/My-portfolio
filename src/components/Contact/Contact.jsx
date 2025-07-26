@@ -77,11 +77,13 @@ const Contact = () => {
   return (
     <>
     <Helmet>
-      <title>Contact</title>
+      <title>
+        Biplap Neupane || Full Stack Developer || Software Engineer
+      </title>
       <meta name="description" content="Contact biplap neupane" />
       <meta
         name="keywords"
-        content="Contact Full Stack Developer Biplap Neupane"
+        content="Contact Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
       />
       <meta name="author" content="Biplap Neupane Full Stack Developer" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

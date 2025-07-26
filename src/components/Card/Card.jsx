@@ -6,7 +6,9 @@ const Card = ({ emoji, heading, detail, color }) => {
   return (
     <>
       <Helmet>
-        <title>Card</title>
+        <title>
+          Biplap Neupane || Full Stack Developer || Software Engineer
+        </title>
         <meta name="description" content="Card biplap neupane" />
         <meta
           name="keywords"

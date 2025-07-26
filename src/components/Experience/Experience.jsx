@@ -9,11 +9,13 @@ const Experience = () => {
 	return (
 		<>
 			<Helmet>
-				<title>Experience</title>
+				<title>
+				  Biplap Neupane || Full Stack Developer || Software Engineer
+				</title>
 				<meta name="description" content="Experience biplap neupane" />
 				<meta
 					name="keywords"
-					content="Experience Full Stack Developer Biplap Neupane"
+					content="Experience Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
 				/>
 				<meta name="author" content="Biplap Neupane Full Stack Developer" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />

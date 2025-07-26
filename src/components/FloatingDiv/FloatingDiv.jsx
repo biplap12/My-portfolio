@@ -7,11 +7,13 @@ const FloatinDiv = ({ img, text1, text2 }) => {
     // darkMode
     <>
       <Helmet>
-        <title>Floating Div</title>
+        <title>
+          Biplap Neupane || Full Stack Developer || Software Engineer
+        </title>
         <meta name="description" content="Floating Div biplap neupane" />
         <meta
           name="keywords"
-          content="Floating Div Full Stack Developer Biplap Neupane"
+          content="Floating Div Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
         />
         <meta name="author" content="Biplap Neupane Full Stack Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -34,12 +34,14 @@ const BackToTop = () => {
   return (
     <>
       <Helmet>
-        <title>Back To Top</title>
-        <meta name="description" content="Back To Top" />
+        <title>
+          Biplap Neupane || Full Stack Developer || Software Engineer
+        </title>
         <meta
-          name="keywords"
-          content="Back To Top Full Stack Developer Biplap Neupane"
+          name="description"
+          content="Full Stack Developer Biplap Neupane"
         />
+        <meta name="keywords" content="Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer" />
         <meta name="author" content="Biplap Neupane Full Stack Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
@@ -47,8 +49,8 @@ const BackToTop = () => {
         <button
           onClick={scrollToTop}
           className="back-to-top"
-          aria-details="back-to-top biplap12 Full Stack Developer Biplap Neupane"
-          aria-label="back-to-top biplap12 Full Stack Developer Biplap Neupane"
+          aria-details="Full Stack Developer Biplap Neupane"
+          aria-label="Full Stack Developer Biplap Neupane"
           oncontextmenu="return false"
         >
           <MdOutlineArrowCircleUp size={40} />

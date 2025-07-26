@@ -18,7 +18,9 @@ const Works = () => {
   return (
     <>
       <Helmet>
-        <title>Works Biplap Neupane</title>
+        <title>
+          Biplap Neupane || Full Stack Developer || Software Engineer
+        </title>
         <meta
           name="keywords"
           content="Full Stack Developer, Software Engineer, Web Designer, Web Developer, Backend Developer, IT Support, Quality Software Development, JavaScript, React, Node.js"

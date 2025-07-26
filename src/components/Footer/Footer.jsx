@@ -10,11 +10,13 @@ const Footer = () => {
   return (
     <>
     <Helmet>
-      <title>Footer</title>
+      <title>
+        Biplap Neupane || Full Stack Developer || Software Engineer
+      </title>
       <meta name="description" content="Footer biplap neupane" />
       <meta
         name="keywords"
-        content="Footer Full Stack Developer Biplap Neupane"
+        content="Footer Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
       />
       <meta name="author" content="Biplap Neupane Full Stack Developer" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
