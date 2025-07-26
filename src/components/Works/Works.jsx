@@ -3,7 +3,7 @@ import "./Works.css";
 import Logo from "../../img/logo.png";
 import Webbook from "../../img/webbook.png";
 import WebX from "../../img/webx_logo.jpeg";
-import Logo_college_project from "../../img/logo_college_project.png";
+import Logo_college_project from "../../img/dharapani neupane samaj.png";
 import Logo_guitarshop from "../../img/logo-guitarshop.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
