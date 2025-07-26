@@ -41,7 +41,7 @@ function App() {
   <meta name="twitter:url" content="https://x.com/biplapneupane" />
   <meta name="twitter:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
 
-  <meta name="google-site-verification" content="google67faf6dbbf5fedfd" />
+  <meta name="google-site-verification" content="google67faf6dbbf5fedfd.html" />
 </Helmet>
 
 		<div

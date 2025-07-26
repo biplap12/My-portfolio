@@ -3,6 +3,7 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 import { toast } from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -74,6 +75,19 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Contact</title>
+      <meta name="description" content="Contact biplap neupane" />
+      <meta
+        name="keywords"
+        content="Contact Full Stack Developer Biplap Neupane"
+      />
+      <meta name="author" content="Biplap Neupane Full Stack Developer" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="theme-color" content="#ABF1FF" />
+
+    </Helmet>
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
       <div className="w-left">
@@ -131,6 +145,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

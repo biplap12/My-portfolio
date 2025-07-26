@@ -4,9 +4,36 @@ import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import { AiFillLinkedin } from "react-icons/ai";
+import { Helmet } from "react-helmet-async";
 
 const Footer = () => {
   return (
+    <>
+    <Helmet>
+      <title>Footer</title>
+      <meta name="description" content="Footer biplap neupane" />
+      <meta
+        name="keywords"
+        content="Footer Full Stack Developer Biplap Neupane"
+      />
+      <meta name="author" content="Biplap Neupane Full Stack Developer" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="theme-color" content="#ABF1FF" />
+      <meta property="og:title" content="Footer biplap neupane" />
+      <meta property="og:description" content="Footer biplap neupane" />
+      <meta property="og:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
+      <meta property="og:url" content="https://www.biplapneupane.com.np" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Footer biplap neupane" />
+      <meta name="twitter:description" content="Footer biplap neupane" />
+      <meta name="twitter:url" content="https://www.biplapneupane.com.np" />
+      <meta name="twitter:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
+      <meta name="twitter:site" content="@biplapneupane" />
+      <meta name="twitter:creator" content="@biplapneupane" />
+      <meta name="google-site-verification" content="google67faf6dbbf5fedfd.html" />
+    </Helmet>
+   
     <div className="footer" onContextMenu={(e) => e.preventDefault()}>
       <img
         className="wave_img"
@@ -67,7 +94,8 @@ const Footer = () => {
         </p>
       </div>
     </div>
-  );
+    </>
+    );
 };
 
 export default Footer;
