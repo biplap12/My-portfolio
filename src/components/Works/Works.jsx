@@ -3,7 +3,7 @@ import "./Works.css";
 import Logo from "../../img/logo.png";
 import Webbook from "../../img/webbook.png";
 import WebX from "../../img/webx_logo.jpeg";
-import Logo_college_project from "../../img/dharapani neupane samaj.png";
+import dharapani_project from "../../img/dharapani neupane samaj.png";
 import Logo_guitarshop from "../../img/logo-guitarshop.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -132,10 +132,10 @@ const Works = () => {
             </div>{" "}
             <div className="w-secCircle">
               <img
-                src={Logo_college_project}
-                aria-details="Logo college project"
-                aria-label="Logo college project"
-                alt="Logo college project"
+                src={dharapani_project}
+                aria-details="Dharapani Neupane Samaj project"
+                aria-label="Dharapani Neupane Samaj project"
+                alt="Dharapani Neupane Samaj project"
                 height={"150px"}
                 width={"150px"}
               />
