@@ -13,7 +13,7 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import { Toaster } from "react-hot-toast";
 import BackToTop from "./components/backToTop/backToTop";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function App() {
 	const theme = useContext(themeContext);
