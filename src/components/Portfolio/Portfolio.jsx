@@ -148,7 +148,6 @@
 //   );
 // };
 
-// export default Portfolio;
 
 import React, { useContext } from "react";
 import "./Portfolio.css";
@@ -205,8 +204,6 @@ const Portfolio = () => {
       <div className="portfolio-button-container">
         <Link
           to="/portfolio/all-projects"
-          spy={true}
-          smooth={true}
           aria-label="Contact Biplap Neupane Full Stack Developer to view all projects"
         >
           <button

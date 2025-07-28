@@ -9,7 +9,7 @@ const Card = ({ emoji, heading, detail, color }) => {
         <title>
           Biplap Neupane || Full Stack Developer || Software Engineer
         </title>
-        <meta name="description" content="Card biplap neupane" />
+        <meta name="description" content="Card biplap neupane " />
         <meta
           name="keywords"
           content="Card Full Stack Developer Biplap Neupane"
@@ -18,7 +18,7 @@ const Card = ({ emoji, heading, detail, color }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       <div className="card" style={{ borderColor: { color } }}>
-        <img src={emoji} alt="" />
+        <img src={emoji} alt=" emoji" />
         <span>{heading}</span>
         <span>{detail}</span>
         {/* <button className="c-button">LEARN MORE</button> */}

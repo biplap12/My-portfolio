@@ -1,21 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
+
 const navbar = () => {
   const { pathname } = useLocation();
-
-  // const handleClick = () => {
-  //   if (
-  //     pathname === "/portfolio" ||
-  //     pathname === "/portfolio/all-projects" ||
-  //     pathname.startsWith("/portfolio/")
-  //   ) {
-  //     window.location.replace("/");
-  //   }
-  // };
   const handleClick = () => {
     if (pathname.startsWith("/portfolio") && pathname !== "/") {
       window.location.replace("/");

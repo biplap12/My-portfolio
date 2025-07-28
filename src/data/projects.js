@@ -78,7 +78,7 @@ const projects = [
     image: epm,
     alt: "Attendance Management System Project made with React.js and Tailwind CSS by Biplap Neupane",
     url: "https://github.com/biplap12/Attendance-Management-using-Face-Recognition.git",
-    description: "Attendance Management System is a web application that allows users to manage their attendance and their patients. The application is built using React.js and Tailwind CSS, and is designed to be user-friendly and easy to navigate.",
+    description: "Attendance Management System is a web application that allows users to manage their attendance and their patients. The application is built using React.js and Tailwind CSS, and is designed to be user-friendly and easy to navigate."
   }
 ];
 

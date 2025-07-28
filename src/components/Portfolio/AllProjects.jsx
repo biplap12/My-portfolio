@@ -4,6 +4,7 @@ import projects from "../../data/projects";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import "./allproject.css";
+import { Helmet } from "react-helmet-async";
 
 const AllProjects = () => {
   const theme = useContext(themeContext);
@@ -24,9 +25,21 @@ const AllProjects = () => {
     hidden: { y: 20, opacity: 0 },
     show: { y: 0, opacity: 1 },
   };
-
   return (
-    <div className={`all-projects-container ${darkMode ? "dark-mode" : ""}`}>
+    <>
+      <Helmet>
+        <title>
+          Biplap Neupane || Full Stack Developer || Software Engineer
+        </title>
+        <meta name="description" content="All Projects biplap neupane" />
+        <meta
+          name="keywords"
+          content="All Projects Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
+        />
+        <meta name="author" content="Biplap Neupane Full Stack Developer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
+      <div className={`all-projects-container ${darkMode ? "dark-mode" : ""}`}>
       <div className="portfolio-header">
         <motion.h2
           className="section-title"
@@ -47,7 +60,7 @@ const AllProjects = () => {
       </div>
 
       <motion.div
-        className="project-grid"
+        className="project-grid"  
         variants={container}
         initial="hidden"
         animate="show"
@@ -96,6 +109,7 @@ const AllProjects = () => {
         ))}
       </motion.div>
     </div>
+    </>
   );
 };
 

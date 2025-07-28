@@ -72,9 +72,8 @@
 
 
 
-import React, { useContext } from "react";
+import React,{ useContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
@@ -91,7 +90,6 @@ import { themeContext } from "./Context";
 import { Toaster } from "react-hot-toast";
 import { Helmet } from "react-helmet-async";
 import "./App.css";
-
 
 
 function HomePage() {

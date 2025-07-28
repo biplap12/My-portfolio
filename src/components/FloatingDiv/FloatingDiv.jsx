@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./FloatingDiv.css";
 import { Helmet } from "react-helmet-async";
 const FloatinDiv = ({ img, text1, text2 }) => {
