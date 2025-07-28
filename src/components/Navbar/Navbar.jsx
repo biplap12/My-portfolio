@@ -116,6 +116,7 @@ const navbar = () => {
           aria-label="toggle button of Biplap Neupane Full Stack Developer"
         >
           <div
+            onClick={handleClick}
             className="n-name"
             aria-label="Biplap Neupane Full Stack Developer"
           >

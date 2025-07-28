@@ -1,6 +1,6 @@
 /* Portfolio Container */
 .portfolio {
-  padding: 2rem;
+  /* padding: 2rem; */
   color: #333;
   text-align: start;
 }
@@ -62,7 +62,7 @@
 /* Responsive Breakpoints */
 @media (max-width: 768px) {
   .portfolio {
-    padding: 1rem;
+    padding: 0;
   }
 
   /* .portfolio-header span:first-child {
@@ -74,7 +74,7 @@
   } */
 
   .swiper-slide img {
-    max-width: 300px;
+    max-width: 500px;
   }
 }
 
@@ -86,6 +86,10 @@
   .portfolio-header span:last-child {
     font-size: 2rem;
   } */
+
+  .portfolio{
+    padding: 0.5rem;
+  }
 
   .swiper-slide img {
     max-width: 300px;
