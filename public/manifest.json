@@ -1,7 +1,7 @@
 {
   "short_name": "Biplap",
   "name": "Biplap Neupane | Full-Stack Developer Portfolio",
-  "description": "Explore the web development portfolio of Biplap Neupane. Projects, skills, and contact info—all in one place.",
+  "description": "Explore the web development portfolio of Biplap Neupane. Projects, skills, and contact info—all in one place. Biplap Neupane is a full-stack developer with expertise in web development, design, and user experience. Biplap Neupane is a full-stack developer with expertise in web development, design, and user experience.",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -9,12 +9,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "/biplap.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "/biplap.png",
       "type": "image/png",
       "sizes": "512x512"
     }

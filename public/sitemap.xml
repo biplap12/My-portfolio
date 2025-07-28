@@ -10,17 +10,23 @@
   </url>
 
   <url>
-    <loc>https://www.biplapneupane.com.np</loc>
-    <lastmod>2025-07-01</lastmod>
+    <loc>https://www.biplapneupane.com.np/</loc>
+    <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.biplapneupane.com.np</loc>
-    <lastmod>2025-07-01</lastmod>
+    <loc>https://www.biplapneupane.com.np/</loc>
+    <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://biplapneupane.com.np/</loc>
+    <lastmod>2025-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

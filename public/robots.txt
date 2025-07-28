@@ -1,5 +1,12 @@
 # https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
 Allow: /
+
+Disallow: /admin
+Disallow: /api
+Disallow: /api/v2
+Disallow: /api/v2/
+Disallow: /apiv2
 
 Sitemap: https://www.biplapneupane.com.np/sitemap.xml
