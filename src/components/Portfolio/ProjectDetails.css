@@ -1,0 +1,58 @@
+.container {
+    padding: 2rem;
+    margin: 0 auto;
+    min-width: none;
+    min-height: 200vh;
+    height: auto;
+
+  }
+  
+  .backButton {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #6b98ff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  
+  .title {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+  }
+  
+  .projectImage {
+    width: 100%;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #334155;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projectLink {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.8rem;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(234, 88, 12, 0.3);
+  }
+  
+  .projectLink:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(234, 88, 12, 0.4);
+  }

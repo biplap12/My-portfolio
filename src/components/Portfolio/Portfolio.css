@@ -109,3 +109,14 @@
 .portfolio-slider:hover .swiper-container {
   animation-play-state: paused;
 }
+
+.swiper-slide {
+  margin-bottom: 50px !important;
+}
+
+.portfolio-button-container{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}

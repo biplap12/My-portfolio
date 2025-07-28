@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Helmet } from "react-helmet-async";
+import { useLocation } from "react-router-dom";
 const navbar = () => {
+  const { pathname } = useLocation();
+
+  // const handleClick = () => {
+  //   if (
+  //     pathname === "/portfolio" ||
+  //     pathname === "/portfolio/all-projects" ||
+  //     pathname.startsWith("/portfolio/")
+  //   ) {
+  //     window.location.replace("/");
+  //   }
+  // };
+  const handleClick = () => {
+    if (pathname.startsWith("/portfolio") && pathname !== "/") {
+      window.location.replace("/");
+    }
+  };
+
   return (
     <>
       <Helmet>
@@ -20,7 +38,7 @@ const navbar = () => {
         />
         <meta
           property="og:title"
-          content="Biplap Neupane – Full Stack Developer & Software Engineer"
+          content="Biplap Neupane - Full Stack Developer & Software Engineer"
         />
         <meta
           property="og:description"
@@ -75,25 +93,24 @@ const navbar = () => {
         <meta name="googlebot" content="index, follow" />
         <meta name="googlebot-news" content="index, follow" />
         <script type="application/ld+json">
-          {`
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Biplap Neupane",
-        "url": "https://www.biplapneupane.com.np",
-        "image": "https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png",
-        "jobTitle": "Full Stack Developer",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance / Self-employed Biplap Neupane Full Stack Developer Software Engineer Web Designer Web Developer Backend Developer IT Support Quality Software Development JavaScript React Node.js"
-        },
-        "sameAs": [
-          "https://github.com/biplap12",
-          "https://linkedin.com/in/biplapneupane",
-          "https://twitter.com/biplapneupane"
-        ]
-      }
-    `}
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Biplap Neupane",
+            url: "https://www.biplapneupane.com.np",
+            image:
+              "https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png",
+            jobTitle: "Full Stack Developer",
+            worksFor: {
+              "@type": "Organization",
+              name: "Freelance / Self-employed",
+            },
+            sameAs: [
+              "https://github.com/biplap12",
+              "https://linkedin.com/in/biplapneupane",
+              "https://twitter.com/biplapneupane",
+            ],
+          })}
         </script>
       </Helmet>
       <div
@@ -132,6 +149,7 @@ const navbar = () => {
                 <Link
                   activeClass="active"
                   to="Navbar"
+                  onClick={handleClick}
                   spy={true}
                   smooth={true}
                   aria-label="Home Biplap Neupane Full Stack Developer"
@@ -142,6 +160,7 @@ const navbar = () => {
               <li aria-label="Services Biplap Neupane Full Stack Developer">
                 <Link
                   to="services"
+                  onClick={handleClick}
                   spy={true}
                   smooth={true}
                   aria-label="Services Biplap Neupane Full Stack Developer"
@@ -152,6 +171,7 @@ const navbar = () => {
               <li aria-label="Experience Biplap Neupane Full Stack Developer">
                 <Link
                   to="works"
+                  onClick={handleClick}
                   spy={true}
                   smooth={true}
                   aria-label="Experience Biplap Neupane Full Stack Developer"
@@ -162,6 +182,7 @@ const navbar = () => {
               <li aria-label="Portfolio Biplap Neupane Full Stack Developer">
                 <Link
                   to="portfolio"
+                  onClick={handleClick}
                   spy={true}
                   smooth={true}
                   aria-label="Portfolio Biplap Neupane Full Stack Developer"
@@ -173,6 +194,7 @@ const navbar = () => {
           </div>
           <Link
             to="contact"
+            onClick={handleClick}
             spy={true}
             smooth={true}
             aria-label="Contact Biplap Neupane Full Stack Developer"
