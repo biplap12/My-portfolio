@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import projects from "../../data/projects";
 import "./ProjectDetails.css";
@@ -11,6 +11,9 @@ const ProjectDetails = () => {
   if (!project) {
     return <p>Project not found.</p>;
   }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const { title, image, alt, url, description } = project;
 

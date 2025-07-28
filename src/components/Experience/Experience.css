@@ -49,5 +49,7 @@
 	.experience {
 		transform: scale(0.8);
 		margin-left: auto;
+		gap: 3rem;
+
 	}
 }
