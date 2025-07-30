@@ -4,7 +4,6 @@ import portfolio from "../img/portfolio.png";
 import hms from "../img/hms.png";
 import nanofinance from "../img/nanofinance.png";
 import BnEstate from "../img/BnEstate.png";
-import imageSearchApp from "../img/imageSearchApp.png";
 import shreeDharapaniSamaj from "../img/shreedharapani.png";
 import highfiveadventure from "../img/highfiveadventure.png";
 import infinityAdventureNepal from "../img/infinityAdventureNepal.png";

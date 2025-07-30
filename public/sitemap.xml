@@ -8,14 +8,19 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://www.biplapneupane.com.np/biplap.png</loc>
+    <lastmod>2025-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
   <url>
     <loc>https://www.biplapneupane.com.np/</loc>
     <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
-
   <url>
     <loc>https://www.biplapneupane.com.np/portfolio/all-projects</loc>
     <lastmod>2025-07-17</lastmod>
@@ -28,11 +33,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-    <url>
-    <loc>https://biplapneupane.com.np/</loc>
+  <url>
+    <loc>https://dharapani-neupane-samaj.biplapneupane.com.np/</loc>
     <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://portfolio.biplapneupane.com.np/</loc>
+    <lastmod>2025-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.biplapneupane.com.np/portfolio/dharapani-neupane-samaj-kathmandu</loc>
+    <lastmod>2025-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
 
 </urlset>
