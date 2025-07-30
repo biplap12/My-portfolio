@@ -148,7 +148,6 @@
 //   );
 // };
 
-
 import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -195,7 +194,11 @@ const Portfolio = () => {
         {projects.map(({ image, alt, slug }) => (
           <SwiperSlide key={slug}>
             <Link to={`/portfolio/${slug}`}>
-              <img src={image} alt={alt} className="portfolio-image" />
+              <img
+                src={image}
+                alt={alt}
+                className="portfolio-image biplap-image"
+              />
             </Link>
           </SwiperSlide>
         ))}
