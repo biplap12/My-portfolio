@@ -33,9 +33,9 @@ const AllProjects = () => {
     <>
       <Helmet>
         <title>
-          Biplap Neupane || Full Stack Developer || Software Engineer
+          All Projects By Biplap Neupane
         </title>
-        <meta name="description" content="All Projects biplap neupane" />
+        <meta name="description" content="All Projects By Biplap Neupane || Full Stack Developer || Software Engineer" />
         <meta
           name="keywords"
           content="All Projects Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
