@@ -13,12 +13,12 @@ import kingfisherRealEstate from "../img/kingfisherRealEstate.png";
 import flyeastnepal from "../img/flyeast.png";
 const projects = [
   {
-    slug:"shree-dharapani-samaj",
-    title: "Shree Dharapani Samaj",
+    slug:"dharapani-neupane-samaj-kathmandu",
+    title: "Dharapani Neupane Samaj Kathmandu",
     image: shreeDharapaniSamaj,
-    alt: "Shree Dharapani Samaj Project made with Next.js and Tailwind CSS by Biplap Neupane",
+    alt: "Dharapani Neupane Samaj Kathmandu Project made with Next.js and Tailwind CSS by Biplap Neupane",
     url: "https://dharapani-neupane-samaj.biplapneupane.com.np/",
-    description: "Shree Dharapani Neupane Samaj is a nonprofit organization dedicated to fostering unity, preserving culture, and supporting the well-being of the Neupane community from Dharapani. This website, designed and developed as a solo project by me using Next.js and Tailwind CSS, serves as an informative and user-friendly platform for community members to stay updated on events, notices, social initiatives, and organizational news. It aims to strengthen connections within the community by providing easy access to important resources and opportunities to engage and contribute."
+    description: "Dharapani Neupane Samaj Kathmandu is a nonprofit organization dedicated to fostering unity, preserving culture, and supporting the well-being of the Neupane community from Dharapani. This website, designed and developed as a solo project by me using Next.js and Tailwind CSS, serves as an informative and user-friendly platform for community members to stay updated on events, notices, social initiatives, and organizational news. It aims to strengthen connections within the community by providing easy access to important resources and opportunities to engage and contribute."
 
   },
   {
