@@ -1,12 +1,13 @@
-# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for https://www.biplapneupane.com.np
 
 User-agent: *
 Allow: /
 
+# Block sensitive areas
 Disallow: /admin
 Disallow: /api
 Disallow: /api/v2
-Disallow: /api/v2/
 Disallow: /apiv2
 
-Sitemap: https://www.biplapneupane.com.np/sitemap.xml
+# Sitemap index (includes all sitemaps)
+Sitemap: https://www.biplapneupane.com.np/sitemap_index.xml
