@@ -148,6 +148,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/portfolio/all-projects" element={<AllProjects />} />
             <Route path="/portfolio/:slug" element={<ProjectDetails />} />
+            <Route path="*" element={<HomePage />} />
           </Routes>
 
           <Footer />

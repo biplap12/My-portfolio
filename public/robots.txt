@@ -3,7 +3,6 @@
 User-agent: *
 Allow: /
 
-# Block sensitive areas
 Disallow: /admin
 Disallow: /api
 Disallow: /api/v2
