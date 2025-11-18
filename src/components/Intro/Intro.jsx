@@ -26,44 +26,78 @@ const Intro = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Biplap Neupane || Full Stack Developer || Software Engineer</title>
-        <meta name="description" content="Intro biplap neupane" />
-        <meta
-          name="keywords"
-          content="Full Stack Developer with 1 year experience in web designing,
-              development,server side development and IT support and services
-              producting the quality work."
-        />
-        <meta name="author" content="Biplap Neupane Full Stack Developer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#ABF1FF" />
-        <meta property="og:title" content="Intro biplap neupane" />
-        <meta property="og:description" content="Intro biplap neupane" />
-        <meta
-          property="og:image"
-          content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
-        />
-        <meta property="og:url" content="https://www.biplapneupane.com.np" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Intro biplap neupane" />
-        <meta name="twitter:description" content="Intro biplap neupane" />
-        <meta name="twitter:url" content="https://www.biplapneupane.com.np" />
-        <meta
-          name="twitter:image"
-          content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
-        />
-        <meta name="twitter:site" content="@biplapneupane" />
-        <meta name="twitter:creator" content="@biplapneupane" />
-        <meta
-          name="google-site-verification"
-          content="google67faf6dbbf5fedfd.html"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow" />
+     <Helmet>
+  <title>Biplap Neupane || Full Stack Developer || Software Engineer</title>
 
-      </Helmet>
+  <meta
+    name="description"
+    content="Introduction to Biplap Neupane — Full Stack Developer with experience in web design, development, server-side engineering, and IT services."
+  />
+
+ <meta
+  name="keywords"
+  content="
+    Biplap Neupane,
+    Biplap Neupane Full Stack Developer,
+    Full Stack Developer Nepal,
+    Software Engineer Nepal,
+    Web Developer Nepal,
+    Next.js Developer,
+    React Developer,
+    Node.js Developer,
+    MERN Stack Developer,
+    Frontend Developer,
+    Backend Developer,
+    Web Designer,
+    UI Developer,
+    JavaScript Developer,
+    Express.js Developer,
+    MongoDB Developer,
+    Portfolio Developer Nepal,
+    IT Support,
+    Web Development Services,
+    Freelance Developer Nepal
+  "
+/>
+  <meta name="author" content="Biplap Neupane" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ABF1FF" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Biplap Neupane — Full Stack Developer" />
+  <meta
+    property="og:description"
+    content="Full Stack Developer skilled in web design, development, server-side engineering, and IT services."
+  />
+  <meta
+    property="og:image"
+    content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
+  />
+  <meta property="og:url" content="https://www.biplapneupane.com.np" />
+  <meta property="og:type" content="website" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Biplap Neupane — Full Stack Developer" />
+  <meta
+    name="twitter:description"
+    content="Full Stack Developer skilled in web design, development, server-side engineering, and IT services."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
+  />
+  <meta name="twitter:url" content="https://www.biplapneupane.com.np" />
+  <meta name="twitter:site" content="@biplapneupane" />
+  <meta name="twitter:creator" content="@biplapneupane" />
+
+  <meta name="google-site-verification" content="google67faf6dbbf5fedfd" />
+
+  {/* Robots */}
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+</Helmet>
+
       <div
         className="Intro"
         id="Intro"
@@ -277,3 +311,4 @@ const Intro = () => {
 };
 
 export default Intro;
+
