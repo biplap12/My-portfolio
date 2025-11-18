@@ -9,32 +9,52 @@ import { Helmet } from "react-helmet-async";
 const Footer = () => {
   return (
     <>
-    <Helmet>
-      <title>
-        Biplap Neupane || Full Stack Developer || Software Engineer
-      </title>
-      <meta name="description" content="Footer biplap neupane" />
-      <meta
-        name="keywords"
-        content="Footer Full Stack Developer Biplap Neupane, Biplap Neupane Full Stack Developer, Biplap Neupane Software Engineer"
-      />
-      <meta name="author" content="Biplap Neupane Full Stack Developer" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="theme-color" content="#ABF1FF" />
-      <meta property="og:title" content="Footer biplap neupane" />
-      <meta property="og:description" content="Footer biplap neupane" />
-      <meta property="og:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
-      <meta property="og:url" content="https://www.biplapneupane.com.np" />
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Footer biplap neupane" />
-      <meta name="twitter:description" content="Footer biplap neupane" />
-      <meta name="twitter:url" content="https://www.biplapneupane.com.np" />
-      <meta name="twitter:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
-      <meta name="twitter:site" content="@biplapneupane" />
-      <meta name="twitter:creator" content="@biplapneupane" />
-      <meta name="google-site-verification" content="google67faf6dbbf5fedfd.html" />
-    </Helmet>
+   <Helmet>
+  <title>Biplap Neupane | Full Stack Developer | Software Engineer</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Biplap Neupane — Full Stack Developer and Software Engineer."
+  />
+  <meta
+    name="keywords"
+    content="Full Stack Developer, Software Engineer, Biplap Neupane, Web Developer Nepal"
+  />
+  <meta name="author" content="Biplap Neupane" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ABF1FF" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Biplap Neupane | Full Stack Developer" />
+  <meta
+    property="og:description"
+    content="Portfolio of Biplap Neupane — Full Stack Developer and Software Engineer."
+  />
+  <meta
+    property="og:image"
+    content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
+  />
+  <meta property="og:url" content="https://www.biplapneupane.com.np" />
+  <meta property="og:type" content="website" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Biplap Neupane | Full Stack Developer" />
+  <meta
+    name="twitter:description"
+    content="Portfolio of Biplap Neupane — Full Stack Developer and Software Engineer."
+  />
+  <meta
+    name="twitter:image"
+    content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png"
+  />
+  <meta name="twitter:site" content="@biplapneupane" />
+  <meta name="twitter:creator" content="@biplapneupane" />
+
+  {/* Google Site Verification — use the token only */}
+  <meta name="google-site-verification" content="google67faf6dbbf5fedfd" />
+</Helmet>
+
    
     <div className="footer" onContextMenu={(e) => e.preventDefault()}>
       <img
@@ -46,8 +66,8 @@ const Footer = () => {
       />
       <div className="f-content" onContextMenu={(e) => e.preventDefault()}>
         <a
-          href="mailto:biplap.neupane2020@gmail.com?subject=Hiring%20Inquiry&body=Hi%20Biplap%2C%0AI'm%20interested%20in%20working%20with%20you."
-          aria-label="Send hiring inquiry email to biplap.neupane2020@gmail.com"
+          href="mailto:contact@biplapneupane.com.np?subject=Hiring%20Inquiry&body=Hi%20Biplap%2C%0AI'm%20interested%20in%20working%20with%20you."
+          aria-label="Send hiring inquiry email to contact@biplapneupane.com.np"
           onContextMenu={(e) => e.preventDefault()}
           style={{
             color: "white",
@@ -55,7 +75,7 @@ const Footer = () => {
             fontSize: "1rem",
           }}
         >
-          biplap.neupane2020@gmail.com
+          contact@biplapneupane.com.np
         </a>
 
         <div className="f-icons" onContextMenu={(e) => e.preventDefault()}>
@@ -101,3 +121,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
