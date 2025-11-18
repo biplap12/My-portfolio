@@ -78,7 +78,7 @@ const navbar = () => {
         <meta name="twitter:creator" content="@biplapneupane" />
         <meta
           name="google-site-verification"
-          content="google67faf6dbbf5fedfd.html"
+          content="google67faf6dbbf5fedfd"
         />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
@@ -205,3 +205,4 @@ const navbar = () => {
 };
 
 export default navbar;
+
