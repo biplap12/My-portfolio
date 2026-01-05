@@ -132,7 +132,6 @@ function App() {
    <meta name="twitter:image" content="https://www.biplapneupane.com.np/static/media/me.663cc6ab950f2b9c54cd.png" />
 
    <meta name="google-site-verification" content="google67faf6dbbf5fedfd.html" />
-   <meta name="google-site-verification" content="H2gHu1wSaN_FK3WhcDrnTJv61gkAIpNsvM67RSQH-Hw" />
 </Helmet>
 
       <BrowserRouter>
@@ -162,4 +161,5 @@ function App() {
 }
 
 export default App;
+
 
