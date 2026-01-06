@@ -10,7 +10,16 @@ import infinityAdventureNepal from "../img/infinityAdventureNepal.png";
 import epeakExpedition from "../img/epeak-expedition.png";
 import kingfisherRealEstate from "../img/kingfisherRealEstate.png";
 import flyeastnepal from "../img/flyeast.png";
+import biplapblog from "../img/biplap-blog.png";
 const projects = [
+  {
+    slug:"biplap-blog",
+    title: "Biplap Neupane BLog",
+    image: biplapblog,
+    alt: "Biplap Blog is a personal blog website created by Biplap Neupane. It provides a platform for sharing knowledge, insights, and experiences in technology and lifestyle.",
+    url: "https://blog.biplapneupane.com.np/",
+    description: "Biplap Blog is a personal blog created by Biplap Neupane, offering a space for sharing valuable knowledge, insights, and experiences in various areas, particularly focusing on technology and lifestyle. The website serves as a platform where readers can find articles related to tech trends, gadgets, software, and other related subjects, along with lifestyle topics that resonate with modern-day living.Through Biplap Blog, readers can expect well-researched content, tips, and tutorials that can help them navigate the ever-evolving digital world, along with thought-provoking lifestyle advice. The blog aims to bridge the gap between tech enthusiasts and everyday individuals, making complex topics accessible to all while providing useful insights for a better lifestyle. Whether you're a tech lover, looking for recommendations on the latest gadgets, or simply interested in personal growth and lifestyle, Biplap Blog is your go-to resource for all things tech and beyond!"
+  },
   {
     slug:"dharapani-neupane-samaj-kathmandu",
     title: "Dharapani Neupane Samaj Kathmandu",
