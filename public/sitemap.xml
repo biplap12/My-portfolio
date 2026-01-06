@@ -19,6 +19,12 @@
 
   <!-- Portfolio items -->
   <url>
+    <loc>https://www.biplapneupane.com.np/portfolio/biplap-blog</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://www.biplapneupane.com.np/portfolio/dharapani-neupane-samaj-kathmandu</loc>
     <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
