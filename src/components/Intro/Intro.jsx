@@ -216,25 +216,25 @@ const Intro = () => {
         <div className="i-right">
           <img
             src={Vector1}
-            alt="vector1 biplap12"
-            aria-details="vector1 biplap12"
-            aria-label="vector1 biplap12"
+            alt="biplap vector1"
+            aria-details="biplap"
+            aria-label="biplap"
           />
           <img
             src={Vector2}
-            alt="vector2 biplap12"
+            alt="biplap12 vector2 "
             aria-details="vector2 biplap12"
             aria-label="vector2 biplap12"
           />
           <img
             className="phoptp"
             src={me}
-            alt="Full Stack Developer Biplap Neupane profile_picture"
+            alt="Biplap Neupane profile_picture"
             oncontextmenu="return false"
             height={"380rem"}
             width={"250rem"}
-            aria-details="Full Stack Developer Biplap Neupane profile_picture"
-            aria-label="Full Stack Developer Biplap Neupane profile_picture"
+            aria-details="Biplap Neupane profile_picture"
+            aria-label="Biplap Neupane profile_picture"
           />
           {/* animation */}
           <motion.img
@@ -311,4 +311,5 @@ const Intro = () => {
 };
 
 export default Intro;
+
 
