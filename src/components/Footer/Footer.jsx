@@ -89,7 +89,7 @@ const Footer = () => {
             <Insta color="white" size={"2rem"} />
           </a>
           <a
-            href="https://www.linkedin.com/in/biplap12/"
+            href="https://www.linkedin.com/in/biplapneupane/"
             rel="noreferrer"
             target={"_blank"}
             aria-label="LinkedIn profile of biplap12"
